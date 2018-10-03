@@ -1,11 +1,11 @@
 def roll_call_dwarves(array)
-  array.each_with_index do |name, index|
-     puts "#{index+1}. #{name}"
+  array.each_with_index do |name, index| #iterating through array using each_with_index
+     puts "#{index+1}. #{name}"     #to print out each name in num order
   end 
 end
 
 def summon_captain_planet(array)
-  array.collect do |word| 
+  array.collect do |word|  #in this case used 'word' as my 'element'
      word.capitalize + "!"
   end 
 end 
